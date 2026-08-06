@@ -9,7 +9,7 @@ import react from '@vitejs/plugin-react';
 // set base back to '/' instead.
 export default defineConfig({
   plugins: [react()],
-  base: '/SOA-S1-PROJECT/',
+  base: './',
   build: {
     outDir: 'dist',
   },
